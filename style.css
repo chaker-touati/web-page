@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+section{
+    background: radial-gradient(#fff, #f8000038);
+}
+header{
+    display: flex;
+    flex-flow: column wrap; 
+}
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+div {
+    display: flex;
+    flex-flow: row;
+    gap: 20px;
+    padding-top: 30px;
+    
+}
+.links a{
+    text-decoration: none;
+    font-size:large;
+    color: black;
+    font-weight: 600;
+    height: max-content;
+    transition: 0.5s;
+}
+.links a:hover{
+    color: orange; 
+}
+#home-icon{
+    color: rgb(1, 156, 213);
+}
+a img {
+    height: 150px;
+    width: 150px;
+    margin-top: -14px;
+    margin-left: -30px;
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+a img:hover{
+    filter: grayscale(0);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.body-header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.img{
+    height: 650px;
+    margin-top: -85px;
+}
+.start{
+    display: flex;
+    flex-flow: column wrap;
+    padding-top: 180px;
+}
+h1{
+    font-size: 40px;
+    line-height: 53px;
+    font-weight: 900;
+}
+p{
+    color: rgba(0, 0, 0, 0.667);
+    line-height: 25px;
+}
+.btn{
+    width:max-content;
+    border: red solid 1px;
+    background-color: red;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.fa-solid.fa-arrow-right{
+    font-size: smaller;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.btn:hover{
+    filter: grayscale(50%);
+    transition: 0.5s;
+}
+.featured-products{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-top: 50px;
+}
+main{
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+.featured-products img{
+    height: 370px;
+    width: 270px;
+    border-radius: 10px;
+    size: 100px;
+    cursor: pointer;
+}
+.featured-products img:hover{
+    transform: scale(1.09);
+    transition: 1.0s;
+}
+#h3{
+    margin-top: 100px;
+    color: black;
+    font-size: x-large;
+    font-weight: 900;
+}
+span{
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: #212529;
+}
+span a{
+    height:max-content;
+    border: solid black 1px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+}
+span a:hover{
+    transform: scale(1.05);
+}
+.fa-solid.fa-magnifying-glass{
+    border: 1px black solid;
+    border-right: none;
+    height: max-content;
+    padding: 10.8px;
+    margin-right: -10px;
+    background-color: white;
+}
+input[type="search"]{
+    height:max-content;
+    width:60%;
+    padding: 10px;
+}
+select{
+    height: max-content;
+    padding: 10px;
+    border-radius: 5px;
+}
+select:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+
+}
+.row{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding-top: 80px;
+}
+.products{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+
+}
+.products:hover{
+    box-shadow: 0 -6px 10px 5px rgba(0, 0, 0, 0.274);
+    transition: 0.5s;
+}
+.products img{
+    height: 350px;
+    width: 350px;
+}
+.rating{
+    display: flex;
+    justify-content: center;
+    color: gold;
+    gap: 10px;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -30px;
+}
+#buy{
+    padding: 10px;
+    color: #fff;
+    background-color: #d94d00;
+    border-color: #d94d00;
+    cursor: pointer;
+}
+#add{
+    padding: 10px;
+    color: #fff;
+    background-color: #212529;
+    border-color: #212529;
+    cursor: pointer;
+}
+.products img:hover{
+    cursor: pointer;
+}
+.box{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background: radial-gradient(#fff, #f8000038);
+    margin-top: 150px;
+    padding: 30px;
+}
+.squre{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 20px;
+    text-align: start;
+}
+.box img{
+    width: 360px;
+    height: 360px;
+}
+.squre a{
+    text-decoration: none;
+    width:max-content;
+    border: red solid 1px;
+    background-color: red;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    margin-top: 20px;
+}
+.squre a:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.notes{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: 250px;
+}
+.note-3{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    width: 400px;
+    height: 400px;
+    gap: 20px;
+}
+.note-3:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.note-3 p:hover{
+    cursor: text;
+}
+.note-3 img{
+    width: max-content;
+    height: 50px;
+    border-radius: 25px;
+    margin-left: 43%;
+}
+.note-3 img:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.fa-solid.fa-quote-left{
+    color:orangered;
+    font-size: xx-large;
+}
+.brands{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 100px;
+}
+.brands img{
+    height: 120px;
+    width: 120px;
+    filter: grayscale(100%);
+    padding: 10px;
+}
+.brands img:hover{
+    filter: grayscale(0%);
+    transform: scale(1.10);
+    transition: 0.5s;
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    flex-flow: column wrap;
+    background-color: black;
+    margin-top: 100px;
+    text-align: center;
+    padding: 20px;
+}
+.app-img{
+    width: 140px;
+    height: 40px;
+    margin-left: 10px;
+}
+#logo-site{
+    width: 100px;
+    height: 100px;
+}
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.col{
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+}
+.text{
+    color: rgba(255, 255, 255, 0.545);
+}
+.headings{
+    color: white;
+}
+.useful-links{
+    color: rgba(255, 255, 255, 0.545);
+    text-decoration: none;
+}
+.useful-links:hover{
+    color: rgba(255, 255, 255, 0.815);
+}
+hr{
+    margin: 90px 90px 30px 90px;
+}
+.paragraph{
+    color: white;
+}
